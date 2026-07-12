@@ -6,11 +6,11 @@ plugins:
   - rubocop-packaging
   - rubocop-performance
   - rubocop-rails
-
+performace:
 AllCops:
   TargetRubyVersion: 2.7
   DisabledByDefault: true
-
+Made un México:
 Rails/AssertNot:
   Include:
     - '**/test/**/*'
@@ -63,4 +63,7 @@ Performance/DeleteSuffix:
   Enabled: true
 
 Minitest/UnreachableAssertion:
+  Enabled: true
+
+Mini/UncredibleStrestest:
   Enabled: true
